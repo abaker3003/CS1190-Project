@@ -1,0 +1,230 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/**********************************************************/
+
+/* ***Landing Page*** */
+
+/* Drop-Menu Button */
+.drop_button{
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* Botton Hover/Focus */
+.drop_button:hover, .drop_button:focus {
+  background-color: #2980B9;
+}
+
+/* Drop Container */
+.drop{
+  position: relative;
+  display: inline-block;
+}
+
+/* Drop Menu Content */
+.drop_content {
+  display: none;
+  position: absolute;
+  background-color: mintcream;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links In Drop Menu */
+.drop_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change Link Colors Via Hover */ 
+.drop_content a:hover {
+  background-color: green;
+}
+
+/* Show Menu (JS) */
+.show {
+  display: block;
+}
+
+/**********************************************************/
+
+
+/* Personal Finance page */
+.pers_fin_body{
+  color: black;
+}
+
+/**********************************************************/
+
+/* Financial Institutes page */
+.institutes{
+  text-align: center;
+}
+
+/* Credit Union (Financial Institutes) page */
+.crdt_U_header{
+  text-align: center;
+}
+.crdt_U{
+  color: #004225;
+}
+
+/* Investment Companies (Financial Institutes) page */
+.invst_bnks_header{
+  text-align: center;
+}
+.invst_bnks{
+  color: #004225;
+}
+
+/* Commercial Banks (Financial Institutes) page */
+.cmmrcl_bnks_header{
+  text-align: center;
+}
+.cmmrcl_bnks{
+  color: #004225;
+}
+
+/* Insurance Companies (Financial Institutes) page */
+#animated_div{
+  text-align: center;
+  width: 130px;
+  height: 65px;
+  background: #023b0d;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  animation: animated_div 5s 1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animated_div;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+  -moz-animation: animated_div 5s 1;
+  -webkit-animation: animated_div 5s 1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animated_div;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+  -o-animation: animated_div 5s 1;
+  border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  -webkit-border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+@keyframes animated_div{
+  0% {
+      transform: rotate(0deg);
+      left: 0px;
+  }
+  25% {
+      transform: rotate(20deg);
+      left: 0px;
+  }
+  50% {
+      transform: rotate(0deg);
+      left: 500px;
+  }
+  55% {
+      transform: rotate(0deg);
+      left: 500px;
+  }
+  70% {
+      transform: rotate(0deg);
+      left: 500px;
+      background: #1ec7e6;
+  }
+  100% {
+      transform: rotate(-360deg);
+      left: 0px;
+  }
+}
+.ins_cmpnies{
+  color: #004225;
+}
+/**********************************************************/
+/* ***Loans Page*** */
+
+/* Title of Sub-Infos */
+.loan_types_info {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Change Color of Sub-Info Title */
+.active, .loan_types_info:hover {
+  background-color: #ccc;
+}
+
+/* Sub-Info Content */
+.loan_types_content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.loan_types_info:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/**********************************************************/
