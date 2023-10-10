@@ -1,7 +1,5 @@
-
 /**********************************************************/
 /* Hide/Show Drop Menu Landing Page */
-
 function myFunction() {
   document.getElementById("Main_Menu").classList.toggle("show");
   
@@ -23,7 +21,6 @@ window.onclick = function(event) {
 
 /**********************************************************/
 /* Loans Page - Info */
-
 var acc = document.getElementsByClassName("accordian");
 var i;
 for (i = 0; i < acc.length; i++) {

@@ -4,12 +4,12 @@ html {
 }
 
 /**********************************************************/
-
 /* ***Landing Page*** */
 
 /* BANK ICON */ 
 .bank {
   text-align: center;
+  color:#023b0d;
 }
 
 /* Drop-Menu Button */
@@ -75,24 +75,18 @@ html {
 }
 
 /**********************************************************/
-
-
 /* Personal Finance page */
 .pers_fin_body{
   color: black;
 }
 
 /**********************************************************/
-
-
 /* Budgeting page */
 .budgeting_body{
   color: black;
 }
 
 /**********************************************************/
-
-
 /* Personal Finance page */
 .pers_fin_body{
   color: black;
@@ -138,8 +132,8 @@ html {
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /*background-repeat-x: initial;
+    background-repeat-y: initial;*/
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
@@ -200,16 +194,16 @@ html {
   }
   50% {
       transform: rotate(0deg);
-      left: 500px;
+      left: max(500px, 75%);
   }
   55% {
       transform: rotate(0deg);
-      left: 500px;
+      left: max(500px, 75%);
   }
   70% {
       transform: rotate(0deg);
-      left: 500px;
-      background: #1ec7e6;
+      left: max(500px, 75%);
+      background: #088804;
   }
   100% {
       transform: rotate(-360deg);
@@ -219,9 +213,9 @@ html {
 .ins_cmpnies{
   color: #004225;
 }
+
 /**********************************************************/
 /* ***Loans Page*** */
-
 .loan {
   max-width: 400px;
 }
@@ -254,16 +248,12 @@ html {
 }
 
 /**********************************************************/
-
-
 /* Savings page */
 .savings_body{
   color: black;
 }
 
 /**********************************************************/
-
-
 /* Personal Finance page */
 .debt_loans_body{
   color: black;
