@@ -1,27 +1,5 @@
 
 /**********************************************************/
-/* Hide/Show Drop Menu Landing Page */
-
-function myFunction() {
-  document.getElementById("Main_Menu").classList.toggle("show");
-  
-}
-
-
-window.onclick = function(event) {
-  if (!event.target.matches('.drop_button')) {
-    var dropdowns = document.getElementsByClassName("drop_content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-/**********************************************************/
 /* Loans Page - Info */
 
 var acc = document.getElementsByClassName("accordian");
