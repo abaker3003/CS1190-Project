@@ -40,6 +40,26 @@ html {
   color: #023b0d;
 }
 
+.sidepanel .closepnl {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openpnl {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ade6ad;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openpnl:hover {
+  background-color: #444;
+}
+
 
 /**********************************************************/
 /* Personal Finance page */
