@@ -1,22 +1,12 @@
 /**********************************************************/
 /* Hide/Show Drop Menu Landing Page */
-function myFunction() {
-  document.getElementById("Main_Menu").classList.toggle("show");
-  
+function openNav() {
+  document.getElementById("Main_Menu").style.width = "250px";
 }
 
 
-window.onclick = function(event) {
-  if (!event.target.matches('.drop_button')) {
-    var dropdowns = document.getElementsByClassName("drop_content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
+function closeNav() {
+  document.getElementById("Main_Menu").style.width="0";
 }
 
 /**********************************************************/
