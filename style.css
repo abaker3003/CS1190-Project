@@ -251,3 +251,16 @@ html {
 }
 
 /**********************************************************/
+
+/* Background Image Source Citing */
+.Sourcing {
+  color: white;
+  display: block;
+  font-size: 15px;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 10px;
+  font-weight: bold;
+  text-align: right;
+}
