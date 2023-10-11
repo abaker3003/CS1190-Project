@@ -17,14 +17,14 @@ html {
 .sidepanel {
   height: 10cm;
   width: 0;
-  position: fixed;
+  position: absolute;
   z-index: 1;
-  top: 58mm;
+  top: 36.8mm;
   left: 0;
   background-color: #30a170;
   font-style: oblique;
   overflow-x: hidden;
-  padding-top: 100px;
+  padding-top: 30pt;
   transition: 1s;
 }
 
@@ -49,13 +49,14 @@ html {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  cursor: grab;
 }
 
 .openpnl {
-  font-size: 20px;
-  cursor: pointer;
+  font-size: 15px;
+  cursor: grab;
   background-color: #ade6ad;
-  padding: 10px 15px;
+  padding: 5px 15px;
   border: none;
 }
 
