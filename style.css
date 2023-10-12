@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 
 }
 
@@ -10,9 +10,11 @@ html {
   margin-bottom: auto; 
   text-align: center;
   text-align: center; 
-  color: #00695C;
+  color: #bcf2ec;
 }
-
+.Bottom_Menu_Nav a {
+  color: #aaf4d4;
+}
 /**********************************************************/
 /* ***Landing Page*** */
 
@@ -91,6 +93,12 @@ html {
 /* Financial Institutes page */
 .institutes{
   text-align: center;
+}
+.institutes a {
+  color: #0cfb04;
+}
+.institutes p {
+  color: #ade6ad;
 }
 
 /* Credit Union (Financial Institutes) page */
@@ -206,7 +214,7 @@ html {
   }
 }
 .ins_cmpnies{
-  color: #004225;
+  color: #fdfdfd;
 }
 
 /**********************************************************/
@@ -218,8 +226,8 @@ html {
 /* Title of Sub-Infos */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordian {
-  background-color: #c8e6c9;
-  color: #000000;
+  background-color: transparent;
+  color: #ffffff;
   cursor: pointer;
   width: 100%;
   height: 50px;
@@ -245,13 +253,13 @@ html {
 /**********************************************************/
 /* Savings page */
 .savings_body{
-  color: black;
+  color: #ade6ad;
 }
 
 /**********************************************************/
 /* Personal Finance page */
 .debt_loans_body{
-  color: black;
+  color: #ade6ad;
 }
 
 /**********************************************************/
