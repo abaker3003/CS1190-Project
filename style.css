@@ -1,6 +1,16 @@
 html {
   height: 100%;
   width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.Bottom_Menu_Nav {
+  margin-bottom: auto; 
+  text-align: center;
+  text-align: center; 
+  color: #00695C;
 }
 
 /**********************************************************/
@@ -10,7 +20,7 @@ html {
 .bank {
   text-align: center;
   text-size-adjust: 65px;
-  color:#023b0d;
+  color:#fdfdfd;
 }
 
 /* Side Panel Menu */
@@ -19,7 +29,7 @@ html {
   width: 0;
   position: absolute;
   z-index: 1;
-  top: 36.8mm;
+  top: 47.8mm;
   left: 0;
   background-color: #30a170;
   font-style: oblique;
@@ -68,19 +78,13 @@ html {
 /**********************************************************/
 /* Personal Finance page */
 .pers_fin_body{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /**********************************************************/
 /* Budgeting page */
 .budgeting_body{
-  color: black;
-}
-
-/**********************************************************/
-/* Personal Finance page */
-.pers_fin_body{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /**********************************************************/
@@ -94,7 +98,7 @@ html {
   text-align: center;
 }
 .crdt_U{
-  color: #004225;
+  color: #aaf4d4;
 }
 
 /* Investment Companies (Financial Institutes) page */
@@ -102,7 +106,7 @@ html {
   text-align: center;
 }
 .invst_bnks{
-  color: #004225;
+  color: #aaf4d4;
 }
 
 /* Commercial Banks (Financial Institutes) page */
@@ -110,7 +114,7 @@ html {
   text-align: center;
 }
 .cmmrcl_bnks{
-  color: #004225;
+  color: #aaf4d4;
 }
 
 /* Insurance Companies (Financial Institutes) page */
