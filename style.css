@@ -90,6 +90,17 @@ html {
 }
 
 /**********************************************************/
+/* Credit page */
+.crdt_page_heading {
+  color: #aaf4d4; 
+  text-align: center; 
+  text-decoration-line: underline;
+}
+.crdt_page {
+  color: white;
+}
+
+/**********************************************************/
 /* Financial Institutes page */
 .institutes{
   text-align: center;
@@ -101,28 +112,11 @@ html {
   color: #ade6ad;
 }
 
-/* Credit Union (Financial Institutes) page */
-.crdt_U_header{
-  text-align: center;
-}
-.crdt_U{
+.fin_inst_list{
   color: #aaf4d4;
 }
-
-/* Investment Companies (Financial Institutes) page */
-.invst_bnks_header{
-  text-align: center;
-}
-.invst_bnks{
-  color: #aaf4d4;
-}
-
-/* Commercial Banks (Financial Institutes) page */
-.cmmrcl_bnks_header{
-  text-align: center;
-}
-.cmmrcl_bnks{
-  color: #aaf4d4;
+.fin_inst_list a {
+  color: #c8e6c9;
 }
 
 /* Insurance Companies (Financial Institutes) page */
