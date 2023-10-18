@@ -6,232 +6,359 @@ html {
 
 }
 
-.Bottom_Menu_Nav {
-  margin-bottom: auto; 
-  text-align: center;
-  text-align: center; 
-  color: #bcf2ec;
-}
-.Bottom_Menu_Nav a {
+.Main_Title {
   color: #aaf4d4;
-}
-/**********************************************************/
-/* ***Landing Page*** */
-
-/* BANK ICON */ 
-.bank {
   text-align: center;
-  text-size-adjust: 65px;
-  color:#fdfdfd;
+  text-decoration: underline double;
+  text-decoration-style: wavy;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+  background-color: rgba(0, 36, 4, 0.5);
+  padding: 10px;
+  border: 2px solid #aaf4d4;
+  border-radius: 8px;
+}
+
+.Main_Title:hover {
+  transform: scale(1.1);
+}
+
+.Title {
+  color: #aaf4d4;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline double;
+  text-decoration-style: wavy;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+  background-color: rgba(0, 36, 4, 0.5);
+  padding: 10px;
+  border: 2px solid #aaf4d4;
+  border-radius: 8px;
+}
+
+.Title:hover {
+  transform: scale(1.1);
 }
 
 /* Side Panel Menu */
-.sidepanel {
-  height: 10cm;
-  width: 0;
+.Main_Menu {
+  text-align: center;
+  height: 100%;
+  width: 250px;
   position: absolute;
   z-index: 1;
-  top: 47.8mm;
+  top: 60mm;
   left: 0;
-  background-color: #30a170;
+  background-color: rgba(0, 36, 4, 0.5);
+  ;
   font-style: oblique;
   overflow-x: hidden;
   padding-top: 30pt;
   transition: 1s;
 }
 
-.sidepanel a {
+.Main_Menu a {
   padding: 4px 4px 4px 16px;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: solid;
   font-style: oblique;
   text-shadow: rgb(118, 119, 118);
-  color: #000000;
+  color: #00906b;
   display: block;
   transition: 1s;
+
 }
 
-.sidepanel a:hover {
-  color: #c2e7c9;
+.Main_Menu a:hover {
+
+  color: #ffffff;
+  transition: 0.5s;
+  text-shadow: rgb(118, 119, 118);
+  font-style: oblique;
+  text-decoration: solid;
+  font-size: 25px;
 }
 
-.sidepanel .closepnl {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  cursor: grab;
+.glow {
+
+  font-size: 30px;
+  color: #9cf79c;
+  text-shadow: 0 0 20px #ADFF2F, 0 0 30px #ADFF2F, 0 0 40px #ADFF2F, 0 0 50px #ADFF2F, 0 0 60px #ADFF2F;
 }
 
-.openpnl {
-  font-size: 15px;
-  cursor: grab;
-  background-color: #ade6ad;
-  padding: 5px 15px;
-  border: none;
+.curr {
+  text-decoration: underline wavy #004100;
 }
 
-.openpnl:hover {
-  background-color: #444;
+.tiles {
+  text-align: center;
+  background-color: rgba(0, 36, 4, 0.5);
+  border: 2px solid #aaf4d4;
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  color: #aaf4d4;
+  text-shadow: 1px 1px #000000;
 }
 
-aside {
-  position: relative;
-  left: 248px;
-  background-color: white;
-  margin-right: 275px;
+/**********************************************************/
+/* ***Landing Page*** */
+.sidebar-heading {
+  color: #aaf4d4;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
 }
 
+.sidebar-table-data {
+  color: #ffffff;
+  text-shadow: rgb(118, 119, 118);
+  font-style: oblique;
+  text-decoration: solid;
+  font-size: 25px;
+  text-align: center;
+}
+
+.sidebar-table-data img {
+  width: 350px;
+  /* or whatever size you want */
+  height: 350px;
+  object-fit: contain;
+  /* to maintain aspect ratio */
+  display: block;
+}
 
 /**********************************************************/
 /* Personal Finance page */
-.pers_fin_body{
-  color: rgb(255, 255, 255);
-}
 
 /**********************************************************/
 /* Budgeting page */
-.budgeting_body{
-  color: rgb(255, 255, 255);
+
+.budgeting_body ol {
+  color: #0d3763;
+  font-size: xx-large;
+  margin: 10%;
 }
+
+.budgeting_body ul {
+  color: #0d3763;
+  font-size: xx-large;
+  margin: 10%;
+}
+
+.budgeting_body {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: x-large;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 /**********************************************************/
 /* Credit page */
 .crdt_page_heading {
-  color: #aaf4d4; 
-  text-align: center; 
+  color: #aaf4d4;
+  text-align: center;
   text-decoration-line: underline;
 }
+
 .crdt_page {
   color: white;
 }
 
+
 /**********************************************************/
 /* Financial Institutes page */
-.institutes{
+.institutes {
   text-align: center;
-}
-.institutes a {
-  color: #0cfb04;
-}
-.institutes p {
-  color: #ade6ad;
+  background-color: rgba(255, 255, 255, 0.5);
+  ;
+
 }
 
-.fin_inst_list{
-  color: #aaf4d4;
+.institutes a {
+  color: #036100;
+  font-size: 40px;
 }
+
+.institutes p {
+  color: #000000;
+  font-size: 30px;
+}
+
+.fin_inst_list {
+  color: #aaf4d4;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .fin_inst_list a {
-  color: #c8e6c9;
+  color: #003302;
+  font-size: 30px;
+}
+
+.citing {
+  font-size: 15px;
+}
+
+.citing a {
+  font-size: 15px;
 }
 
 /* Insurance Companies (Financial Institutes) page */
-#animated_div{
+#animated_div {
   text-align: center;
   width: 130px;
   height: 65px;
   background: #023b0d;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    /*background-repeat-x: initial;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  /*background-repeat-x: initial;
     background-repeat-y: initial;*/
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
   color: #ffffff;
   position: relative;
   font-weight: bold;
   font-size: 20px;
   padding: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   animation: animated_div 5s 1;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: animated_div;
-    animation-timeline: auto;
-    animation-range-start: normal;
-    animation-range-end: normal;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: animated_div;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
   -moz-animation: animated_div 5s 1;
   -webkit-animation: animated_div 5s 1;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: animated_div;
-    animation-timeline: auto;
-    animation-range-start: normal;
-    animation-range-end: normal;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: animated_div;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
   -o-animation: animated_div 5s 1;
   border-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   -webkit-border-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
-@keyframes animated_div{
+
+@keyframes animated_div {
   0% {
-      transform: rotate(0deg);
-      left: 0px;
+    transform: rotate(0deg);
+    left: 0px;
   }
+
   25% {
-      transform: rotate(20deg);
-      left: 0px;
+    transform: rotate(20deg);
+    left: 0px;
   }
+
   50% {
-      transform: rotate(0deg);
-      left: max(500px, 75%);
+    transform: rotate(0deg);
+    left: max(500px, 75%);
   }
+
   55% {
-      transform: rotate(0deg);
-      left: max(500px, 75%);
+    transform: rotate(0deg);
+    left: max(500px, 75%);
   }
+
   70% {
-      transform: rotate(0deg);
-      left: max(500px, 75%);
-      background: #088804;
+    transform: rotate(0deg);
+    left: max(500px, 75%);
+    background: #088804;
   }
+
   100% {
-      transform: rotate(-360deg);
-      left: 0px;
+    transform: rotate(-360deg);
+    left: 0px;
   }
 }
-.ins_cmpnies{
+
+.ins_cmpnies {
   color: #fdfdfd;
 }
 
 /**********************************************************/
 /* ***Loans Page*** */
-.loan {
-  max-width: 400px;
+.side {
+  max-width: 100%;
+  position: relative;
+  margin-left: 275px;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.side h1 {
+  color: white;
+  text-align: center;
+
+}
+
+.side h4 {
+  color: black;
+}
+
+.side p {
+  color: #000000;
+  margin: 15px;
+  font-size: large;
+}
+
+.side center {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.side h1 {
+  color: #012900;
+  font-size: xx-large;
+}
+
+.side h2 {
+  color: #429140;
+  font-size: x-large;
+}
+
+center p {
+  font-size: x-large;
 }
 
 /* Title of Sub-Infos */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordian {
   background-color: transparent;
-  color: #ffffff;
+  color: #000000;
   cursor: pointer;
   width: 100%;
-  height: 50px;
+  height: 75px;
   text-align: left;
   border: none;
   outline: none;
@@ -239,28 +366,92 @@ aside {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordian:hover {
-  background-color: #ade6ad;
+.active,
+.accordian:hover {
+  background-color: #1c6e1c;
+  color: #000000;
+  /* changed this to white */
 }
 
 /* Style the accordion panel. Note: hidden by default */
-.loan_types_content {
+.accordian_content {
   padding: 0 18px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   display: none;
   overflow: hidden;
+  color: black;
+  font-size: x-large;
+}
+
+.accordian_content h2 {
+  color: #000000;
+}
+
+.loan_calculator {
+  text-align: center;
+  width: 375px;
+  height: 400px;
+  background-color: #024503;
+  position: initial;
+  margin: 0 auto;
+  padding: 40px 40px 40px 40px;
+  border-radius: 600cm;
+  color: white;
+  display: block;
+}
+
+.interest_calculator {
+
+  text-align: center;
+  width: 375px;
+  height: 400px;
+  background-color: #024503;
+  position: initial;
+  margin: 0 auto;
+  padding: 40px 40px 40px 40px;
+  border-radius: 600cm;
+  color: white;
+  display: block;
+}
+
+input {
+  padding: 7px;
+  width: 70%;
+  margin-top: 7px;
+}
+
+.loan_calculator p {
+  color: black;
+  font-size: 20px;
+}
+
+.interest_calculator p {
+  font-size: 20px;
+}
+
+.interest_calculator h2 {
+  color: wheat;
+  font-size: 20px;
+}
+
+.spreadsheet {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+
+}
+
+iframe {
+  width: 97%;
+  height: 600px;
+  position: initial;
 }
 
 /**********************************************************/
 /* Savings page */
-.savings_body{
-  color: #ade6ad;
-}
-
-/**********************************************************/
-/* Personal Finance page */
-.debt_loans_body{
-  color: #ade6ad;
+.svngs ol {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: x-large;
 }
 
 /**********************************************************/

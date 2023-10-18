@@ -1,242 +1,418 @@
 <!DOCTYPE html>
-<html  style="background-image: url('1250503_9701.svg');">
+<html style="background-image: url('1250503_9701.svg');">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 
-  <div class="loans">
-    <button class="accordian"><h1>Types of loans:</h1></button>
-    <div class="loan_types_content">
-      
-      <!--- maybe change styles of the following buttons --->
-      <button class="accordian"><h2>Student Loans</h2></button>
-      <div class="loan_types_content">
-        <ol>
-          <li>Federal
-            <ul>
-              <li>
-                Direct Subsidized Loans
-              </li>
-              <li>
-                Direct Unsubsidized Loans
-              </li>
-              <li>
-                Direct PLUS Loans
-              </li>
-              <li>
-                Direct Consolidation Loans
-              </li>
-            </ul><br><a href="https://studentaid.gov/understand-aid/types/loans"> 
-        Visit StudentAid.gov to learn more about which Federal loan is best for you. 
-      </a>
-          </li><br><br>
-          <li>Private
-            <ul>
-              <li>Private student loans are offered by private institutions and typically have a higher interest rate and shorter time period to pay back the loans.</li>
-            </ul>
-          </li>
-        </ol>
-      </div>
-      <button class="accordian"><h2>Auto Loans</h2></button>
-      <div class="loan_types_content">
-        <p>
-          Something Here
-        </p>
-      </div>
-      <button class="accordian"><h2>Mortgage Loans</h2></button>
-      <div class="loan_types_content">
-        
-        <h3>1. Conventional Loans</h3>
-        <p>
-        Typically requires:
-          <ul>
-            <li>Credit score 620 or higher</li>
-            <li>Down payment of at least 3%</li>
-          </ul>
-        </p>
-        
-        <h3>2. Federal Housing Administration (FHA) Loans</h3>
-        <p>The Federal Housing Administration is a part of Housing and Urban Development (HUD). FHA insures loans for low income and individuals with lower credit ratings so that lenders can provide more options for the applicant.</p><br>
-        <p>
-        Typically requires:
-          <ul>
-            <li>Credit score of 500 with a 10% down payment</li>
-            <li>Credit score of 580 with a 3.5% down payment</li>
-          </ul>
-        </p>
+<header class="Title">
+  <h1>Debt and Loans</h1>
+</header>
 
-        <h3>3. VA Loans</h3>
+<hr>
 
-        <h3>4. USDA Loans</h3>
-        
-      </div>
-      
-      <button class="accordian"><h2>Payday Loans</h2></button>
-      <div class="loan_types_content">
-        <p>
-          Something Here
-        </p>
-      </div>
-      
-      <button class="accordian"><h2>Debt Consolidation Loans</h2></button>
-      <div class="loan_types_content">
-        <p>
-          Something Here
-        </p>
-      </div>
-      
-    </div>
-    
-    <script src="script.js"></script>
-  </div>
+<div class="Main_Menu">
+  <!-- This is an example of hyperlinking the subpages-->
+  <a href="index.html">
+    Home
+  </a>
+  <br>
+  <a href="personal_finance.html">
+    Personal Finance
+  </a>
+  <br>
+  <a href="budgeting.html">
+    Budgeting
+  </a>
+  <br>
+  <a href="financial_institutes.html">
+    Financial Institutions
+  </a>
+  <br>
+  <a href="savings.html">
+    Savings
+  </a>
+  <br>
+  <a href="credit.html">
+    Credit
+  </a>
+  <br>
+  <a href="debt_loans.html">
+    <strong class="glow">Debts & Loans</strong>
+  </a>
+  <br>
+  <a href="investment.html">
+    Investing
+  </a>
+  <br>
+  <a href="About.html">
+    About Us
+  </a>
+</div>
 
-  <hr>
-  
-  <br><br>
+<script src="script.js"></script>
 
-  <!-- 
-  <h2>
-      Student Loans
-  </h2>
+<div class="side">
+  <button class="accordian">
+    <h1><i class="fas fa-plus"></i>&emsp;Types of Loans</h1>
+  </button>
+  <div class="accordian_content">
+
+    <!--- maybe change styles of the following buttons --->
+    <!--- STUDENT LOANS --->
+
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Student Loans</h2>
+    </button>
+    <div class="accordian_content">
       <h3>
-        1. Federal
+        1. Federal Student Loans
       </h3>
-        <h4>
-          * Direct Subsidized Loans
-        </h4>
+      Federal student loans are student loans that are guarenteed by the federal government. The government offers
+      different types of student loans. Some of the loans have a total loan limit which means that your loan ammounts
+      accumulate to a total amount and once that limit is reached, you are no longer eligible for federal student loans.
+      <ul>
+        <li> <strong>
+            Subsidized Loans
+          </strong></li>
+        Direct subsudized loans do not accrue interest while an individual is in school or during their 6 month grace
+        period while they are our of school or graduate.
+        <br>
+        <br>
 
-        <h4>
-          * Direct Unsubsidized Loans
-        </h4>
-        
-        <h4>
-          * Direct PLUS Loans
-        </h4>
+        <li><strong>
+            Direct Unsubsidized Loans
+          </strong></li>
+        Direct unsubsidized loans acrue interest from the first day you receive them. In other words, these federal
+        loans accummulate interest while you are in school.
+        <br>
+        <br>
 
-        <h4>
-          * Direct Consolidation Loans
-        </h4>
+        <li><strong>
+            Direct PLUS Loans
+          </strong></li>
+        According to StudentAid.gov, Direct PLUS loans are for graduate or professional students AND parents of
+        dependent undergraduate students to help pay for education expenses not covered by other financial aid. Unlike
+        Federal Subsudized and Unsubsidized Loans, Direct PLUS loans are not based upon financial need.
+        <br>
+        <br>
 
-        <a href="https://studentaid.gov/understand-aid/types/loans"> 
-        Visit StudentAid.gov to learn more about which Federal loan is best for you. 
+        <li><strong>
+            Consolidation Loans
+          </strong></li>
+        Direct consolidated loans is the term given for federal loans combined into one loan so that the payee is able
+        to make one payment instead of multiple loan payments. This option typically occurs after your 6-month grace
+        period or 6-months after you graduate.
+        </li>
+      </ul>
+
+      <a href="https://studentaid.gov/understand-aid/types/loans"> Visit StudentAid.gov to learn more about which
+        Federal loan is best for you.
       </a>
-<br><br>
+      <br>
+      <br>
+
       <h3>
         2. Private
       </h3>
-        <p>
-          Private student loans are offered by private institutions and typically have a higher interest rate and shorter time period to pay back the loans.
-        </p>
-     
-    
-        <br>
-    <h2>
-          Auto Loans
-    </h2>
-        <br>
-    <h2>
-      Mortgage Loans
-    </h2>
-      <h3>
-        1. Conventional Loans
-      </h3>
-        <p>
-          Typically requires:
-        </p>  
-          <ul>
-            <li>Credit score  620 or higher</li>
-            <li>Down payment of at least 3%</li>
-          </ul>
-          
-        <br>
-      <h3>
-        2. Federal Housing Administration (FHA) Loans
-      </h3>
-      <p>
-        The Federal Housing Administration is a part of Housing and Urban Development (HUD). FHA insures loans for low income and individuals with lower credit ratings so that lenders can provide more options for the applicant.
+      Private student loans are offered by private institutions and typically have a higher interest rate and shorter
+      time period to pay back the loans.
+      <p></p>
+      Unlike Federal subsidized and Federal unsibsidized loans, private student loans are not based upon financial need
+      and require a credit check. If you are a student with little to no credit history, you will most likely need a
+      co-signer to help you secure a private student loan.
       </p>
-      <p>
-        Typically requires:
+      <ul><Strong>
+          Popular Private Student Loan Lenders:
+        </Strong>
+
         <ul>
-          <li>Credit score of 500 with a 10% down payment</li>
-          <li>Credit score of 580 with a 3.5% down payment</li>
+          <li>
+            College Ave
+          </li>
+          <a href="https://www.collegeavestudentloans.com/" target="_blank" rel="noopener noreferrer">
+            https://www.collegeavestudentloans.com/
+          </a>
+          <br>
+          <br>
+
+          <li>
+            Sallie Mae
+          </li>
+          <a href="https://www.salliemae.com/student-loans/" target="_blank" rel="noopener noreferrer">
+            https://www.salliemae.com/student-loans/
+          </a>
+          <br>
+          <br>
+
+          <li>
+            SoFi
+          </li>
+          <a href="https://www.sofi.com/private-student-loans/" target="_blank" rel="noopener noreferrer">
+            https://www.sofi.com/private-student-loans/
+          </a>
+          <br>
+          <br>
+
+          <li>
+            Credible
+          </li>
+          <a href="https://www.credible.com/student-loans" target="_blank" rel="noopener noreferrer">
+            https://www.credible.com/student-loans/
+          </a>
+          <p></p>
         </ul>
-      </p>
+      </ul>
+
+
+      </ol>
+    </div>
+
+    <!--- AUTO LOANS --->
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Auto Loans</h2>
+    </button>
+    <div class="accordian_content">
+      <p></p>
+      Insurance companies go hand-in-hand with auto loans. Insurance companies tend to give discounts to vehicles that
+      are less than two years old. Additionally, when you have a new car loan, insurance companies require you to have a
+      insurance for full coverage.
+      <h3>
+        1. New Car Loans
+      </h3>
+      A new car loan is a loan for a new vehicle. You would be the first owner of the vehicle. Typically, new vehicles
+      have a lower interest rate, however, they typically cost more at the time of purchase.
+      <p></p>
 
       <h3>
-        3. VA Loans
+        2. Used Car Loans
       </h3>
+      Used car loans apply to vehicles that have had at least one owner. Used vehicles have a higher interest rate,
+      however, they typically cost less at the time of purchase.
+      <p></p>
+      When purchasing a used vehicle, you should inspect the vehicle's past history and mechanics if possible. For
+      example, is the vehicle leaking oil, do all the doors and locks work, does the vehicle need new tires soon, was
+      the vehicle previously in an accident and fixed up, etc? Oftentimes, you can ask the dealership for the cars
+      history before you purchase the used vehicle.
 
-     <h3>
-        4. USDA Loans
+      <h3>
+        3. Auto loan refinancing
       </h3>
+      If your credit score is better anytime after you purchase your and you want to get a better interest rate on your
+      vehicle loan, you can ask your bank/credit union (or a different bank/credit union) to refinance your auto loan.
+      <p></p>
+      Generally, the time to wait to refinance a loan is six months from the start of your loan. Many times, you are not
+      able to refinance your auto loan if you are upside down on your loan. Upside down means that you owe more for the
+      vehicle than the vehicle is worth.
 
-    
-    <h2>
-          Payday Loans
-    </h2>
-        <br>
-    <h2>
-          Debt Consolidation Loans
-    </h2>
+      <h3>
+        4. Leasing a vehicle
+      </h3>
+      Leasing a vehicle is when you have a contract to rent a car for a specified period of time from the dealership.You
+      do not own the vehicle. When the period of time is up, you can look into options to purchase the vehicle you were
+      leasing, or lease another vehicle.
 
-    <br><br>
-    <a href="https://www.calculator.net/loan-calculator.html"> 
-        Click the link to be directed to 
- Calculator.net for their free loan calculator 
-      </a>
-    
+
+
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Mortgage Loans</h2>
+    </button>
+    <div class="accordian_content">
+
+      <h3>1. Conventional Loans</h3>
+      Conventional loans are your typical mortgage loans.
+      <p></p>
+      Typically requires:
+      <ul>
+        <li>Credit score 620 or higher</li>
+        <li>Down payment of at least 3%</li>
+      </ul>
+
+      <h3>2. Federal Housing Administration (FHA) Loans</h3>
+      The Federal Housing Administration is a part of Housing and Urban Development (HUD). FHA insures loans for low
+      income and individuals with lower credit ratings so that lenders can provide more options for the applicant.
+      <br><br>
+      Typically requires:
+      <ul>
+        <li>Credit score of 500 with a 10% down payment</li>
+        <li>Credit score of 580 with a 3.5% down payment</li>
+      </ul>
+
+      <h3>3. Veterans Affairs (VA) Loans</h3>
+      VA loans are loans guaranteed by the VA to veterans, service members, and their survivors obtain loans. The VA
+      assists eligble individuals with buy, build, improve, or refinance homes. An individual can only use one VA loan
+      at a time.
+      <br><br>
+      If you want to know if you qualify for a VA loan, you can follow this link for eligibilty requirements.
+      <ul><a href="https://www.va.gov/housing-assistance/home-loans/eligibility/" target="_blank"
+          rel="noopener noreferrer"> https://www.va.gov/housing-assistance/home-loans/eligibility/
+        </a>
+      </ul>
+      </p>
+
+      <h3>4. U.S. Department of Agriculture (USDA) Loans</h3>
+      The USDA Loans are guaranteed by the USDA, and are generally available in rural and suburban areas. You can
+      contact your real estate agent to see if you are eligible for this type of loan.
+      <p></p>
+      According to Zillow.com, some of the requirements for a USDA loan are:
+      <ul>
+        <li>Open country and not part of, or associated with an urban area</li>
+        <li>A town, village, city or place that has a population of less than 10,000 people</li>
+        <li>Or, a town, village, city or place that is not within a highly-populated metropolitan area (meaning the
+          population must be above 10,000 but below 20,000)</li>
+      </ul>
+
+    </div>
+
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Payday Loans</h2>
+    </button>
+    <div class="accordian_content">
+      <p></p>
+      Payday loans are a type of short-term loan (as in your next pay check) where a lender will give you a <i>very</i>
+      high-interest rate to pay pack the loan. These loans are typically based upon your income as opposed to your
+      credit score. These loans usually have you pay the amount in full plus the interest that was accrued with your
+      next paycheck. This can be dangerous and can continue a cycle of not having any money for expenses with your next
+      paycheck.
+    </div>
+
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Debt Consolidation Loans</h2>
+    </button>
+
+    <div class="accordian_content">
+      Debt consolidation loans are loans that are for a specified amount and are used to pay of your other loans so that
+      you can have a lower monthly payment, and if possible, a lower interest rate. Debt consolidation loans can be
+      secured or unsecured loans. Secured loans usually have lower interest rates than unsecured loans and are more
+      likely to be approved.
+      <ul>
+        <li>
+          <strong>Secured loan:</strong>
+          <br>
+          This means you offer the bank/credit union collateral to secure the loan. Typically, the collateral is a house
+          or vehicle that is fully owned by you. If you don't pay back the loan, the bank gets to keep your collateral.
+          <br><br>
+        </li>
+        <li>
+          <strong>Unsecured loan:</strong>
+          <br>
+          An unsecured loan is where you do not have any collateral to offer the lender. Unsecured loans usually have a
+          higher interest rate and a lower loan amount.
+        </li>
+      </ul>
+    </div>
+
+
+
+
+
   </div>
--->
 
-  
-  
- 
- <!-- Margin -->
-    
+  <button class="accordian">
+    <h1><i class="fas fa-plus"></i>&emsp;Debt</h1>
+  </button>
+  <div class="accordian_content">
+
+    <!--- maybe change styles of the following buttons --->
+
+    <h3>1. Debt</h3>
+    <ul>
+      Debt is the amount of money you owe other people or companies.
+    </ul>
+    <h3>2. Amortization Schedule</h3>
+    <ul>
+      An amortization schedule is a table (and if available a chart) that shows how the amount of the monthly payment
+      breaks down between the amount paid to the mortgage principal and the amount of the payment paid to the interest
+      of the loan. This table allows a person to see how much they pay in interest over time, how their payment is being
+      split and how their loan balance changes over time.
+
+      Factors used to calculate the amortization table include the initial loan amount, closing costs that may increase
+      the loan amount, and thereby the monthly payments. Interest rates affect the monthly total payment of the loan as
+      well. The higher the interest rate, the higher the total payment. However, interest payment amounts are higher at
+      the beginning of the loan repayment so that the lender is paid before more upfront in repayments.
+    </ul>
+    <h3>3. Loan Calculators</h3>
+    <ul>
+      Loan calculators are a tool you can use to determine if you can afford the monthly payments of a loan. Loan
+      caluclators allow an individidual to input initial loan amounts, loan terms, loan length of time, interest rate,
+      and the APR to help a user determine their monthly payment.
+    </ul>
+    <p> </p>
+    </button>
+  </div>
+
   <br><br><br><br><br>
 
-  <div class="Bottom_Menu_Nav">
-    <p>
-      |
-      <a href="index.html">
-      Home
-      </a>
-      |
-      <a href="about.html">
-      About Us
-      </a>
-      |
-      <a href="personal_finance.html">
-        Personal Finance
-      </a>
-      |
-      <a href="budgeting.html">
-        Budgeting
-      </a>
-      | 
-      <a href="financial_institutes.html">
-        Financial Institutions
-      </a>
-      | 
-      <a href="savings.html">
-        Savings
-      </a>
-      | 
-      <a href="credit.html">
-        Credit
-      </a>
-      |
-      <a href="investment.html">
-        Investing
-      </a>
-      |
+  <div class="loan_calculator">
+    <h1 style="color: wheat">Loan Calculator</h1>
+
+    <!-- Calling Calculate function defined in app.js -->
+    <p style="color: wheat">Amount ($) :
+      <input id="amount" type="number" onchange="Calculate()">
     </p>
+
+    <p style="color: wheat">Interest Rate :
+      <input id="rate" type="number" onchange="Calculate()">
+    </p>
+
+    <p style="color: wheat">Months to Pay :
+      <input id="months" type="number" onchange="Calculate()">
+    </p>
+
+    <h2 id="interest" style="color: wheat"></h2>
+
+    <h2 id="payment" style="color: wheat"></h2>
+
   </div>
 
-  <h6 class="Sourcing"><a href="https://www.freepik.com/free-vector/abstract-dark-green-polygonal-background_1250503.htm#page=2&query=green%20black%20background&position=1&from_view=search&track=ais" style="color: white;">Image by Harryarts</a> on Freepik</h6>
-  
+  <script src="script.js"></script>
+
+
+  <br><br><br><br><br>
+
+  <hr>
+  <div class="spreadsheet">
+    <h2 style="text-align:center;">Loan Calculator </h2>
+    <p style="color:black"> The loan calculator above focuses on interest only loans. If you want to figure out a loan
+      with amoratized interest, you can find loan calculators for free on the internet. Follow <a
+        href="https://www.calculator.net/auto-loan-calculator.html" style="color: blueviolet" rel="noopener noreferrer">
+        this link</a> to use the various loan calculators at calculator.net. </p>
+    <figure style="color:black">
+      <strong> Image 2: Example of a Loan Calculator Output</strong>
+      <br>
+      <img src="Calculator_Net Loan Calculator Example.png" alt="Auto Loan Calculator Output" class="center"
+        height="655" width="600">
+
+      <figcaption>
+        Image 2 from calculator.net
+      </figcaption>
+
+    </figure>
+    <br>
+    <div class="spreadsheet">
+      <h2 style="text-align:center;">Example of a Monthly Amortization Schedule </h2>
+      <p style="color:black">This amortization schedule is based upon a 2023 Jeep Gladiator Rubicon V6, 3.8L, 8 speed
+        auto transmission in hydro blue pearlcoat. At the time, the amortization schedule was created, the Jeep
+        Gladiator was listed as $63,150 at Dick Poe Jeep, El Paso, TX. </p>
+      <p></p>
+      <p style="color:black">The amortization table is based on 48 months, 7.64% interest rate, $0 down payment, and a
+        sales tax of 8.25% is included.</p>
+      <iframe
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_rZNbP22S2kZ5wMNP5mTBUk79A1-o32tv72toRPgwigrO89JzAJKDU34EnRnmsD2qfY7mwZ8hExeL/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
+      </iframe>
+    </div>
+
+
+    <br>
+  </div>
+
+
+  <h6 class="Sourcing"><a
+      href="https://www.freepik.com/free-vector/abstract-dark-green-polygonal-background_1250503.htm#page=2&query=green%20black%20background&position=1&from_view=search&track=ais"
+      style="color: white;">Image by Harryarts</a> on Freepik</h6>
+
 </html>

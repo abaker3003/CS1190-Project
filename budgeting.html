@@ -1,134 +1,243 @@
 <!--Use bootstrap to review-->
 
 <!DOCTYPE html>
-<html  style="background-image: url('1250503_9701.svg');">
+<html style="background-image: url('1250503_9701.svg');">
+<!-- Heading -->
+<header class="Title">
+  <h1>Budgeting</h1>
+</header>
 
-  <head>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  
-  <!-- Heading -->
-  <div>
-    <h1 style="color: #aaf4d4; text-align: center; text-decoration-line: underline;">Budgeting</h1>
-    <hr>
-  </div>
-
-  <br><br>
-  
-  <body style="text-align:center">
-    
-    <button onclick="gridView()">
-      <i class="fa fa-th-large"></i> 
-      <h2>Key Term Boxes</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 
 
+<hr>
 
-      
-<!-- Please Check the Syntax -->
-      <div class="row">
-        <div class="column" style="background-color:#aaa;">
-          <h3>Fixed Expenses</h3>
-          <p> Expenses that are exactly the same every month
-          </p>
-        </div>
+<div class="Main_Menu">
+  <a href="index.html">
+    Home
+  </a>
+  <br>
+  <a href="personal_finance.html">
+    Personal Finance
+  </a>
+  <br>
+  <a href="budgeting.html">
+    <strong class="glow">Budgeting</strong>
+  </a>
+  <br>
+  <a href="financial_institutes.html">
+    Financial Institutions
+  </a>
+  <br>
+  <a href="savings.html">
+    Savings
+  </a>
+  <br>
+  <a href="credit.html">
+    Credit
+  </a>
+  <br>
+  <a href="debt_loans.html">
+    Debts & Loans
+  </a>
+  <br>
+  <a href="investment.html">
+    Investing
+  </a>
+  <br>
+  <a href="About.html">
+    About Us
+  </a>
+</div>
 
-        <div class="row" style="background-color:#bbb;">
-          <h3>Flexible Expenses</h3>
-          <p> Expenses that change from month to month (even if it's by a few cents)
-          </p>
-        </div>
-    
-      <div class="column" style="background-color:#bbb;">
-        <h3>Total Expenses</h3>
-        <p>The combined amount of fixed and flexible expenses</p>
-      </div>
+<script src="script.js"></script>
 
-        <div class="column" style="background-color:#bbb;">
-          <h3>Gross Income</h3>
-          <p>The total income earned before any deductions like taxes or expenses</p>
-        </div>
-
-        <div class="column" style="background-color:#bbb;">
-          <h3>Net Income</h3>
-          <p>The total income earned after any deductions like taxes or expenses</p>
-        </div>
-
-        <div class="column" style="background-color:#bbb;">
-          <h3>Total Monthly Income</h3>
-          <p>Income from various sources like jobs, investments, etc.</p>
-        </div>
-
-        <div class="column" style="background-color:#bbb;">
-          <h3>Disposable Income</h3>
-          <p>Income minus taxes</p>
-        </div>      
-      
-      </div>
-  
+<aside class="side">
+  <button class="accordian">
+    <h1 style="text-align: center;"><i class="fas fa-plus"></i>&emsp;Key Budgeting Terms:<br></h2>
+  </button>
+  <div class="accordian_content">
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Fixed Expenses</h2>
     </button>
-
-    
-
-  </body>
-
-
-
-  <br><br><br><br>
-       <!--Enter height as 500--> 
-  <div class="budgeting_body">
-   <h2>Spreadsheet 1. Interactive Budget Worksheet</h2>
-    <iframe width="100%" height="500"
-       src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROf7EWZeABZkh2ORBOThxED-lNm8aKXttU8Sh6g2PlMUpxMQzEe8gjbrvNVw_rPj2PKHXHAr8d7mAc/pubhtml?widget=true&amp;headers=false">
-    </iframe>
-   <p>Citation is as follows: Spreadsheet 1 adapted from UTEP CS 1190 Personal Finance Budget Worksheet Template. Mejia, D 2023.</p>
-    <ul> change the size of the Google Sheet.</ul>
-    <ul> Google sheet is from Elizabeth's Google Workspace</ul>
-    <ul> Google worksheet is designed to be replublished when changes are made to the gSheet</ul>
-    <ul> Since the spreadsheet is based from the spreadsheet used in Personal Finance Class, we must cite it!</ul>
-    <ul> Start with this to make sure the spreadsheet is interactive and downloadable: </ul>
+    <div class="accordian_content">
+      <h4>
+        Expenses that are exactly the same every month.
+      </h4>
+      <h5>
+        Examples of Fixed Expenses:
+        <ul>
+          <li>
+            Rent, Mortgage
+          </li>
+          <li>
+            Auto insurance, health insurance
+          </li>
+          <li>
+            Child care
+          </li>
+          <li>
+            Gym memberships
+          </li>
+          <li>
+            Streaming subscriptions, such as Netflix, Hulu, etc.
+          </li>
+        </ul>
+      </h5>
+      <br><br>
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Flexible Expenses</h2>
+    </button>
+    <div class="accordian_content">
+      <h4> Expenses that change from month to month (even if it's by a few cents)
+      </h4>
+      <h5>
+        Examples of Flexible Expenses:
+        <ul>
+          <li>
+            Food and groceries
+          </li>
+          <li>
+            Medical expenses such as copays
+          </li>
+          <li>
+            Utilites, such as gas, electric, water,
+          </li>
+          <li>
+            Fuel, vehicle maintenence costs
+          </li>
+          <li>
+            Home improvement costs, home maintenence, Cleaning supplies
+          </li>
+          <li>
+            Gifts
+          </li>
+          <li>
+            Entertainment (You know those movies, concerts, and resturaunts are fun)
+          </li>
+        </ul>
+      </h5>
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Total Expenses</h2>
+    </button>
+    <div class="accordian_content">
+      <h4>The combined amount of fixed and flexible expenses</h4>
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Gross Income</h2>
+    </button>
+    <div class="accordian_content">
+      <h4>The income earned before any deductions such as taxes or expenses
+      </h4>
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Net Income</h2>
+    </button>
+    <div class="accordian_content">
+      <h4>The income earned after any deductions such as taxes or expenses (also known as the amount that goes into your
+        bank account)
+      </h4>
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Total Monthly Income</h2>
+    </button>
+    <div class="accordian_content">
+      <h4>Income from various sources such as jobs, investments, gifts, etc.</h4>
+    </div>
+    <button class="accordian">
+      <h2><i class="fas fa-plus"></i>&emsp;Disposable Income</h2>
+    </button>
+    <div class="accordian_content">
+      <h4>Remaining income after taxes, deductions, and total expenses
+      </h4>
+    </div>
   </div>
 
-<!-- Margin -->
-    
-  <br><br><br><br><br>
+  <script src="script.js"></script>
+  <hr>
 
-  <div class="Bottom_Menu_Nav">
-    <p>
-      |
-      <a href="index.html">
-      Home
-      </a>
-      |
-      <a href="about.html">
-      About Us
-      </a>
-      |
-      <a href="personal_finance.html">
-        Personal Finance
-      </a>
-      | 
-      <a href="financial_institutes.html">
-        Financial Institutions
-      </a>
-      | 
-      <a href="savings.html">
-        Savings
-      </a>
-      | 
-      <a href="credit.html">
-        Credit
-      </a>
-      |
-      
-      <a href="debt_loans.html">
-        Debts & Loans
-      </a>
-      |
-      <a href="investment.html">
-        Investing
-      </a>
-      |
+  <div class="spreadsheet">
+    <h2 style="text-align:center;">Building a Budget</h2>
+    <p>If you are building a budget for the first time, it is important to know the difference between needs and wants
+      so
+      you can prepare a budget that is customized to you and your net income. You want to evaluate your needs first and
+      your wants seconds.</p>
+    <p></p>
+    <p><Strong>Needs</Strong> are the items that you can't live without. These are usually refered to as your four
+      walls:</p>
+    <ol>
+      <li style="text-align:left;">
+        Mortgage, rent
+      </li>
+      <li style="text-align:left;">
+        Groceries
+      </li>
+      <li style="text-align:left;">
+        Utilities
+      </li>
+      <li style="text-align:left;">
+        Fuel and transportation (car payment, monthly bus pass, monthly uber costs)
+      </li>
+    </ol>
+
+    <p><Strong>Wants</Strong> are the items that you can live without, but don't want to live without. If your total
+      expenses are greater than your net income, then this is the category you want to look into cutting expenses
+      first.</p>
+    <p></p>
+    <p>You may realize you don't need to that gym membership because you don't go to the gym regulary or your
+      apartment
+      complex might have a gym. Maybe you can completely cut out an item, or maybe you find a category that you don't
+      need to give up, an you can just cut back on the monthly cost. </p>
+    <ul>
+      <li style="text-align:left;">
+        Personal care
+      </li>
+      <li style="text-align:left;">
+        Massages
+      </li>
+      <li style="text-align:left;">
+        Dining out
+      </li>
+      <li style="text-align:left;">
+        Luxury items, such as clothes, luxury car payment vs practical car payment
+      </li>
+      <li style="text-align:left;">
+        Vacations
+      </li>
+    </ul>
     </p>
-  
-    <h6 class="Sourcing"><a href="https://www.freepik.com/free-vector/abstract-dark-green-polygonal-background_1250503.htm#page=2&query=green%20black%20background&position=1&from_view=search&track=ais" style="color: white;">Image by Harryarts</a> on Freepik</h6>
+    </p>
+
+    <h2 style="text-align:center;">Spreadsheet 1. Budget Worksheet</h2>
+    <p> You can download a copy of Spreadsheet 1 <a
+        href="https://docs.google.com/spreadsheets/d/e/2PACX-1vROf7EWZeABZkh2ORBOThxED-lNm8aKXttU8Sh6g2PlMUpxMQzEe8gjbrvNVw_rPj2PKHXHAr8d7mAc/pub?output=xlsx"
+        style="color: blueviolet" rel="noopener noreferrer"> here.
+      </a></p>
+
+    <iframe width="100%" height="500"
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROf7EWZeABZkh2ORBOThxED-lNm8aKXttU8Sh6g2PlMUpxMQzEe8gjbrvNVw_rPj2PKHXHAr8d7mAc/pubhtml?widget=true&amp;headers=false">
+    </iframe>
+    <p>Spreadsheet 1 adapted from UTEP CS 1190 Personal Finance Budget Worksheet Template. Mejia, D 2023.</p>
+    <br>
+    <p>
+
+    </p>
+    </body>
+
+</aside>
+
+
+
+
+<h6 class="Sourcing"><a
+    href="https://www.freepik.com/free-vector/abstract-dark-green-polygonal-background_1250503.htm#page=2&query=green%20black%20background&position=1&from_view=search&track=ais"
+    style="color: white;">Image by Harryarts</a> on Freepik</h6>
+
 </html>

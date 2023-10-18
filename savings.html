@@ -1,61 +1,168 @@
 <!DOCTYPE html>
-<html  style="background-image: url('1250503_9701.svg');">
+<html style="background-image: url('1250503_9701.svg');">
 
-  <head>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<BODY TEXT="WHITE">
+
   <!-- Heading -->
-  <div>
-    <h1 style="color: #aaf4d4; text-align: center; text-decoration-line: underline;">SAVINGS</h1>
-    <hr>
-  </div>
-  
-  <!-- Margin -->
-    
-  <br><br><br><br><br>
+  <header class="Title">
+    <h1>Savings</h1>
+  </header>
 
-  <div class="Bottom_Menu_Nav">
-    <p>
-      |
-      <a href="index.html">
+  <hr>
+
+  <div class="Main_Menu">
+    <a href="index.html">
       Home
-      </a>
-      |
-      <a href="about.html">
+    </a>
+    <br>
+    <a href="personal_finance.html">
+      Personal Finance
+    </a>
+    <br>
+    <a href="budgeting.html">
+      Budgeting
+    </a>
+    <br>
+    <a href="financial_institutes.html">
+      Financial Institutions
+    </a>
+    <br>
+    <a href="savings.html">
+      <strong class="glow">Savings</strong>
+    </a>
+    <br>
+    <a href="credit.html">
+      Credit
+    </a>
+    <br>
+    <a href="debt_loans.html">
+      Debts & Loans
+    </a>
+    <br>
+    <a href="investment.html">
+      Investing
+    </a>
+    <br>
+    <a href="About.html">
       About Us
-      </a>
-      |
-      <a href="personal_finance.html">
-        Personal Finance
-      </a>
-      |
-      <a href="budgeting.html">
-        Budgeting
-      </a>
-      | 
-      <a href="financial_institutes.html">
-        Financial Institutions
-      </a>
-      |
-      <a href="credit.html">
-        Credit
-      </a>
-      |
-      
-      <a href="debt_loans.html">
-        Debts & Loans
-      </a>
-      |
-      <a href="investment.html">
-        Investing
-      </a>
-      |
-    </p>
+    </a>
   </div>
-  
 
-  <h6 class="Sourcing"><a href="https://www.freepik.com/free-vector/abstract-dark-green-polygonal-background_1250503.htm#page=2&query=green%20black%20background&position=1&from_view=search&track=ais" style="color: white;">Image by Harryarts</a> on Freepik</h6>
 
-  
+
+  <aside class="side">
+    <div class="svngs">
+      <button class="accordian">
+        <h1><i class="fas fa-plus"></i>&emsp;Reasons for Saving!</h2>
+      </button>
+      <div class="accordian_content">
+        <ol style="text-align:left;";">
+          <li>Financial Security</li>
+          <br>
+          <li>Goal Achievement</li>
+          <br>
+          <li>Emergency Preparedness</li>
+          <br>
+          <li>Snowball your Savings</li>
+          <br>
+          <li>Financial Freedom</li>
+          <br>
+          <li>Saving for Retirement</li>
+        </ol>
+      </div>
+      <hr>
+      <!-- If we can make this next part a whole other section -->
+      <button class="accordian">
+        <h1><i class="fas fa-plus"></i>&emsp;How To Save Money</h2>
+      </button>
+      <div class="accordian_content">
+        <ol>
+        <li>Create a budget and track your spending</li>
+          <br>
+        <li>Set financial goals</li>
+          <br>
+        <li>Automate your saving</li>
+          <br>
+        <li>Start by saving with small amounts</li>
+          <br>
+        <li>Find ways to cut back on your spending</li>
+          <br>
+        <li>Make savings a priority</li>
+        </ol>
+      </div>
+      <hr>
+
+      <button class="accordian">
+        <h1><i class="fas fa-plus"></i>&emsp;Saving Tips</h2>
+      </button>
+      <div class="accordian_content">
+        <ul>
+          <li>Set realistic goals - Start with a small goal and gradually increase it if you can.</li>
+          <br>
+          <li>Don't wait - The sooner you start saving the more time your money has to grow, through compound interest
+          </li>
+          <br>
+          <li>Get help from a financial advisor - If you are not sure how to get started you can talk with a financial advisor and they can help you create a personalized savings plan.</li>
+          <br>
+          <li>Don't give up - Saving money takes time and discipline, but it's worth it in the long run for working towards your financial goals and getting financial freedom.</li>
+          <br>
+          <li>Don't let inflation fool you - Financial advisors are experts in savings and investing, so it's important to be aware of the effects of inflation.</li>
+        </ul>
+      </div>
+      <hr>
+
+      <button class="accordian">
+        <h1><i class="fas fa-plus"></i>&emsp;Use Interest To Your Advantage</h2>
+      </button>
+      <div class="accordian_content">
+        Compound Interest involves earning interest on your existing interest, leading to accelerated money growth.
+        <br><br>
+        If you start investing now through your savings your compound interest can grow significantly, meaning greater returns on your money versus if you were to start later.
+        <p></p>
+      </div>
+      <hr>
+    </div>
+
+    <div class="interest_calculator">
+      <br>
+      <h1 style="color: wheat;">Simple Interest Calculator</h1>
+
+      <p style="color: wheat"><strong>Principle ($) :</strong>
+        <input id="amount" type="number" onchange="Compound_Interest()">
+      </p>
+
+      <p style="color: wheat"><strong>Interest Rate Per Month :</strong>
+        <input id="rate" type="number" onchange="Compound_Interest()">
+      </p>
+
+      <p style="color: wheat"><strong>Term (Months) :</strong>
+        <input id="months" type="number" onchange="Compound_Interest()">
+      </p>
+
+      <br>
+
+      <h2 id="balance"></h2>
+
+      <script src="script.js"></script>
+
+    </div>
+
+    <br><br><br><br><br><br><br>
+  </aside>
+
+
+
+
+  <h6 class="Sourcing"><a
+      href="https://www.freepik.com/free-vector/abstract-dark-green-polygonal-background_1250503.htm#page=2&query=green%20black%20background&position=1&from_view=search&track=ais"
+      style="color: white;">Image by Harryarts</a> on Freepik</h6>
+
+
 </html>
