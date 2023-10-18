@@ -149,10 +149,22 @@ html {
   margin: 10%;
 }
 
+.budgeting_body li {
+  color: #0d3763;
+  font-size: xx-large;
+  margin: 20%;
+}
+
+.budgeting_body ul li {
+  color: #0d3763;
+  font-size: xx-large;
+  margin: 20%;
+}
+
 .budgeting_body {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -187,7 +199,7 @@ html {
 
 .institutes p {
   color: #000000;
-  font-size: 30px;
+  font-size: xx-large;
 }
 
 .fin_inst_list {
@@ -344,7 +356,7 @@ html {
 
 .side h2 {
   color: #429140;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 center p {
@@ -380,7 +392,7 @@ center p {
   display: none;
   overflow: hidden;
   color: black;
-  font-size: x-large;
+  font-size: large;
 }
 
 .accordian_content h2 {
@@ -442,8 +454,8 @@ input {
 }
 
 iframe {
-  width: 97%;
-  height: 600px;
+  width: 675px;
+  height: 700px;
   position: initial;
 }
 
